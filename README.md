@@ -1,2 +1,2 @@
 # todo_node
-Node
+Nodejs cloud-based application (on development)
