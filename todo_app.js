@@ -4,7 +4,7 @@ const path = require("path");
 const ejs = require("ejs");
 
 const APP = express();
-const PORT = rocess.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 const DB = require("./db");
 
 APP.listen(PORT, () => {
