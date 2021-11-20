@@ -4,7 +4,7 @@ const path = require("path");
 const ejs = require("ejs");
 
 const APP = express();
-const PORT = 80 || 443;
+const PORT = rocess.env.PORT || 3000;
 const DB = require("./db");
 
 APP.listen(PORT, () => {
